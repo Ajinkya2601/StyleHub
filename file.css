@@ -1,0 +1,376 @@
+*{
+    font-size: 10px;
+}
+body,html{
+    height: 100%;
+}
+body{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    background-color: beige;
+}
+#logo1{
+    width: 100px;
+    height: 85px;
+    mix-blend-mode: multiply;
+    filter: invert(100%);
+}
+.name{
+    width:50px;
+}
+h1{
+    font-size: 3.2rem;
+}
+nav{
+     position: fixed;
+     top: 0;
+     z-index: 2;
+     overflow: hidden; 
+     width: 100%;
+     height: 120px;
+     background-color: antiquewhite;
+}    
+.navbar{ 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-grow: 0;
+    justify-content: c; 
+}
+.start{
+    display: flex;
+    align-items:  center;
+    flex:2 0 200px;
+}
+.list1{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    gap: 50px;
+    list-style: none;   
+}
+.menu{
+    font-size: 2.5rem;
+    text-decoration: none;
+    color: black;
+}
+.mid{
+    flex:6 0 40vw;
+}
+.end{
+    display: flex;
+    justify-content: space-around;
+    flex:1 0 100px;
+}
+.fa-solid{
+    font-size: 3rem;
+    padding-right: 50px;
+}
+.front{
+    width: 100%;
+}
+.front{
+    margin-top: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #D9AFD9;
+   background-image: linear-gradient(225deg, #D9AFD9 8%, #97D9E1 33%, #ffffff 66%, #ffffff 100%);   
+}
+#frontimg{
+    height: 84vh;
+    mix-blend-mode: multiply;
+    width: 100%;
+}
+.bgimg{
+    display: flex;
+    justify-content: flex-start;
+}
+.info1{
+    padding-right: 280px;
+    width: 30%;
+}
+p{
+    font-size: 3.5rem;
+    font-weight:700;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+#shop{
+    font-size: 3rem;
+    background:local;
+    padding: 15px;
+    border-radius: 5rem;
+    font-weight: 600;
+    border: 2px solid black;
+}
+#login{
+    font-size: 2.4rem;
+    background:local;
+    padding: 10px;
+    border-radius: 5rem;
+    font-weight: 600;
+    border: 2px solid black;
+    color: black;
+    margin-right: 10px;
+}
+.part1,.part2,.part3{
+     margin-bottom: 60px;
+}
+.containers{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 6vh;
+}
+.title1{
+    font-size: 2.6rem;
+    text-align: center;
+}
+.container1,.container2,.container3{
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border: 2px solid black;
+    border-radius: 5rem;
+    width: max-content;
+    background-color: rgb(212, 249, 249);
+}
+.image{
+    width: 34rem;
+    height: 36rem;
+    padding: 16px;
+}
+#img1{
+     padding: 0px 15px;
+}
+#img2{
+    padding: 0px 18px;
+}
+#img3{
+    padding: 0px 16px;
+}
+.price{
+    display: flex;
+    gap: 8vw;
+    justify-content: space-between;
+    align-items: center;
+}
+h4{ 
+    font-size: 2.5rem;
+}
+h2{
+    font-size: 4rem;
+    text-align: center;
+}
+h3{
+    font-size: 3.2rem;
+}
+.buy1,.buy2,.buy3{
+   font-size: 2.5rem;
+   padding:10px;
+   background-color: black;
+   color: rgb(212, 249, 249);
+   border-radius: 5rem;
+   border: 0px;
+}
+.buy2{
+    color: rgb(252, 255, 186);
+}
+.buy3{
+    color: rgb(190, 246, 174);
+}
+.seemore{
+    font-size: 3rem;
+    margin-left: 46%;
+    padding: 12px;
+    border: 2px solid black;
+    border-radius: 5rem;
+    background-image: linear-gradient(to right, #4776E6 0%, #8E54E9 51%, #4776E6 100%);
+    color: #ffffff;
+    margin-bottom: 20px;
+}   
+.container2{
+ background-color: rgb(252, 255, 186);
+}
+.container3{
+    background-color: rgb(190, 246, 174);
+}
+.footer{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: #FFDEE9;
+    background-image: linear-gradient(0deg, #FFDEE9 0%, #B5FFFC 100%);    
+    color: rgb(1, 5, 8);
+    margin-bottom: 10px;
+    border-top: 1.5px solid black;
+    border-bottom:1.5px solid black; ;
+}
+.insta,.facebook,.twitter{
+    width: 4rem;
+    height:4rem;
+    padding-right: 1rem;
+    mix-blend-mode: darken;
+}
+.socialmed{
+    list-style:none;
+}
+.endlist{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    list-style-type: none;
+    margin-top: -10px;
+    gap: 2rem;
+    flex-wrap: wrap;
+}
+.list3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-right: 1rem;
+    font-size: 2.5rem;
+}
+.endinfo{
+    font-size: 3rem;
+    color:rgb(1, 1, 24);
+}
+.footerbtn{
+    font-size: 2.5rem;
+    padding: 1rem;
+    border-radius: 5rem;
+    background: local;
+    color: rgb(1, 1, 24);
+}
+.lastline{
+    margin-top: -8px;
+}
+h5{
+    font-size: 2.2rem;
+}
+a{
+    text-decoration: none;
+}
+
+/*<------------------------ New arrival page--------------------------->*/
+
+.top,.top1{
+    text-align: center;
+    font-size: 6rem;
+    color: #ffffff;
+    font-weight: 300;
+    margin-top: 0px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+video{
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  min-width: 100%; 
+  min-height: 100%;
+  z-index: -1;
+  opacity: 0.9;
+}
+.front1{
+    top: 0;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3));   
+    margin-bottom: 15px; 
+}
+.top1{
+    color: black;
+    font-size: 4rem;   
+}
+#onvideo{
+    font-size: 4rem;
+    position: absolute;
+    top: 40vh;
+    left: 45vh;
+    width: 100vh;
+    color: #ffffff;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.menarrival,.womenarrival{
+    width:30rem;
+    height: 32rem;
+}
+.box{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 25px;
+}
+.box1,.box2{
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    border: 2px solid black;
+    padding: 0px 15px;
+    background-color: whitesmoke;
+    border-radius: 5rem;
+}
+.box2{
+    background-color: aliceblue;
+}
+.price-NA{
+    display: flex;
+    gap: 4vw;
+    justify-content: space-around;
+    align-items: center;
+}
+.buy4{
+    padding: 10px;
+    background-color: black;
+    color: whitesmoke;
+    font-size: 2.5rem;
+    border-radius: 5rem;
+}
+
+/*<----------------Mens page--------------------->*/
+
+.mens-title{
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 3.5rem;
+}
+.mens-box1,.mens-box2{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap:10px;
+    margin-bottom: 20px;
+}
+.mens-box1 > div[class^="mens-box1"],
+.mens-box2 > div[class^="mens-box2"]{
+    width: fit-content;
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 5rem;
+}
+.mens-img{
+    width: 30rem;
+    height: 33rem;
+    padding: 0px 15px;
+}
+.mens-inner-title1{
+    font-size: 3rem;
+    text-align: center;
+}
+.mens-price{
+    display: flex;
+    gap: 4vw;
+    justify-content: space-around;
+    align-items: center;
+}
+.mens-buy{
+    padding: 10px;
+    background-color: black;
+    color: whitesmoke;
+    font-size: 2.5rem;
+    border-radius: 5rem;
+}
